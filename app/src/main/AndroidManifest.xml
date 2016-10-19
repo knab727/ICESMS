@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.kacper.icecall">
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:name=".RemoteMedApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.basic.activities.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.basic.activities.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ui.basic.activities.MainActivity"
+            android:label="MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.basic.activities.UserListActivity"
+            android:label="@string/title_activity_user_list"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ui.basic.activities.DisplayActivity"
+            android:label="@string/title_activity_display"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".ui.basic.activities.MainActivity"/>
+        
+        <service
+            android:name=".modules.SensorsService"
+            android:icon="@drawable/ic_add"
+            android:label="SeizureService"/>
+    </application>
+
+</manifest>

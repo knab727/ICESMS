@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryApp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingLeft="10sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:layout_gravity="start"
+        android:background="@color/colorPrimaryApp"
+        android:textColor="@color/colorSecondaryApp"
+        android:id="@+id/settings_module_name"
+        android:layout_alignParentLeft="true"
+        />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSecondaryApp"
+        android:textOn="ON"
+        android:textOff="OFF"
+        android:id="@+id/settings_row_switch"
+        android:thumb="@drawable/apptheme_switch_inner_holo_light"
+        android:track="@drawable/apptheme_switch_track_holo_light"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

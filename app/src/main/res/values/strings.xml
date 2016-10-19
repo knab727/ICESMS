@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ICECall</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="register">Register</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="emergency_login">Emergency Log In</string>
+    <string name="title_activity_user_list">UserListActivity</string>
+    <string name="password_confirm">Confirm Password</string>
+    <string name="main_greeting">Welcome to the RemoteMed Application!\n Currently this is a small operation but there is room for rapid expansion.\n Currently just a seizure detection module is available. \n We are working day and night to provide you with the best possible remote medical solutions. \n May you stay in good health eternally.</string>
+    <string name="emergency_instr_1">If you are a person who is accessing this app in case of an emergency, please select the user</string>
+    <string name="empty_emergency_users_list">No users registered on this device!</string>
+    <string name="title_activity_display">DisplayActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="seizuredetect_iceNumbers">ICE Numbers - Seizure Detect</string>
+    <string name="seizuredetect_removeIce">Remove ICE Number - Seizure Detect</string>
+    <string name="empty_main">You are not using any modules. \n Go to settings and turn on a module now!</string>
+    <string name="logout">Log Out</string>
+    <string name="seizuredetect_emptyseizures">No seizures have occurred thus far.</string>
+    <string name="seizuredetect_empty_ice">No ICE numbers are set. \n Please add some. \n To do this use the menu.</string>
+    <string name="seizuredetect_contactName">Contact Name</string>
+    <string name="seizuredetect_phoneNumber">Phone Number</string>
+</resources>

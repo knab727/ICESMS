@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ui.basic.activities.MainActivity"
+    android:background="@color/colorSecondaryApp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/main_greeting"
+        android:id="@+id/main_greeting"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:orientation="vertical"
+        android:layout_below="@id/main_greeting"
+        android:id="@+id/main_divider1"/>
+    <ListView
+        android:layout_below="@id/main_divider1"
+        android:id="@+id/main_module_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+    <TextView
+        android:id="@+id/empty_main"
+        android:layout_below="@id/main_divider1"
+        android:text="@string/empty_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="20sp"
+        android:gravity="center">
+    </TextView>
+
+</RelativeLayout>

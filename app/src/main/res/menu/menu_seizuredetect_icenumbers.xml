@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/seizuredetect_add_iceNumber"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_add"
+        android:title="@string/seizuredetect_iceNumbers"
+        />
+    <item
+        android:id="@+id/seizuredetect_removeNumber"
+        android:title="@string/seizuredetect_removeIce"
+        android:orderInCategory="120"
+        android:icon="@drawable/ic_remove"
+        app:showAsAction="always">
+    </item>
+
+</menu>
